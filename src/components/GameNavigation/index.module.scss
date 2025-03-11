@@ -1,0 +1,40 @@
+.navigation {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(76, 175, 80, 0.9);
+    border-radius: 25px;
+    padding: 8px 16px;
+    margin: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 100;
+}
+
+.backButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0;
+    transition: transform 0.2s ease;
+
+    &:hover {
+        transform: translateX(-2px);
+    }
+
+    &::before {
+        content: '←';
+        font-size: 20px;
+    }
+}
+
+.title {
+    margin: 0;
+    margin-left: 12px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}

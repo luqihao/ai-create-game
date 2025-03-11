@@ -1,16 +1,16 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import styles from './PegSolitaire.module.scss'
 import Game from './Game'
+import GameNavigation from '../../components/GameNavigation'
 
 const PegSolitaire: React.FC = () => {
     return (
-        <div className={styles.container}>
-            <Link to="/" className={styles.backButton}>
-                ← 返回首页
-            </Link>
-            <Game />
-        </div>
+        <>
+            <GameNavigation title="孔明棋" />
+            <div className={styles.container}>
+                <Game />
+            </div>
+        </>
     )
 }
 

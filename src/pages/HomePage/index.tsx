@@ -10,6 +10,12 @@ const games = [
         title: '孔明棋',
         description: '经典的单人智力游戏，移动棋子跳过其他棋子，目标是最后只剩下一个棋子。',
         imageUrl: '/images/peg-solitaire.jpg'
+    },
+    {
+        id: 'match-three',
+        title: '消消乐',
+        description: '经典的三消游戏，在60秒内消除尽可能多的元素获得高分！',
+        imageUrl: '/images/match-three.jpg'
     }
     // 这里可以添加更多游戏
 ]
