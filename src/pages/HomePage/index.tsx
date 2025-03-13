@@ -16,6 +16,12 @@ const games = [
         title: '消消乐',
         description: '经典的三消游戏，在60秒内消除尽可能多的元素获得高分！',
         imageUrl: '/images/match-three.jpg'
+    },
+    {
+        id: 'red-packet-rain',
+        title: '红包雨',
+        description: '在60秒内尽可能多地点击掉落的红包，小心炸弹！在手机上体验更佳。',
+        imageUrl: '/images/red-packet-rain.jpg'
     }
     // 这里可以添加更多游戏
 ]
