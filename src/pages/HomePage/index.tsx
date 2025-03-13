@@ -22,8 +22,13 @@ const games = [
         title: '红包雨',
         description: '在60秒内尽可能多地点击掉落的红包，小心炸弹！在手机上体验更佳。',
         imageUrl: '/images/red-packet-rain.jpg'
+    },
+    {
+        id: 'wheel-of-fortune',
+        title: '幸运大转盘',
+        description: '转动幸运大转盘，看看今天的运气如何！可以提前选择中奖结果。',
+        imageUrl: '/images/wheel-of-fortune.jpg'
     }
-    // 这里可以添加更多游戏
 ]
 
 const HomePage: React.FC = () => {
