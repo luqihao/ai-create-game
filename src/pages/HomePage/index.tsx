@@ -28,6 +28,12 @@ const games = [
         title: '幸运大转盘',
         description: '转动幸运大转盘，看看今天的运气如何！可以提前选择中奖结果。',
         imageUrl: '/images/wheel-of-fortune.jpg'
+    },
+    {
+        id: 'plinko',
+        title: 'Plinko 弹珠游戏',
+        description: '经典的弹珠滚落游戏，小球从顶部落下，弹跳穿过钉板最终落入奖品槽。',
+        imageUrl: '/images/plinko.jpg'
     }
 ]
 
