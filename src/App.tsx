@@ -6,6 +6,7 @@ import { MatchThree } from './games/MatchThree'
 import RedPacketRainGame from './games/redPacketRain'
 import WheelOfFortune from './games/WheelOfFortune'
 import Plinko from './games/Plinko'
+import RunningGame from './games/RunningGame'
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/game/red-packet-rain" element={<RedPacketRainGame />} />
                     <Route path="/game/wheel-of-fortune" element={<WheelOfFortune />} />
                     <Route path="/game/plinko" element={<Plinko />} />
+                    <Route path="/game/running-game" element={<RunningGame />} />
                 </Routes>
             </div>
         </Router>

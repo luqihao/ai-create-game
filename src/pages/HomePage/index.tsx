@@ -34,6 +34,12 @@ const games = [
         title: 'Plinko 弹珠游戏',
         description: '经典的弹珠滚落游戏，小球从顶部落下，弹跳穿过钉板最终落入奖品槽。',
         imageUrl: '/images/plinko.jpg'
+    },
+    {
+        id: 'running-game',
+        title: '跑步障碍游戏',
+        description: '控制角色左右移动和跳跃，躲避前方出现的障碍物，看看你能坚持多久！',
+        imageUrl: '/images/running-game.jpg'
     }
 ]
 
