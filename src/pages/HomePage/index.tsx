@@ -40,6 +40,12 @@ const games = [
         title: '跑步障碍游戏',
         description: '控制角色左右移动和跳跃，躲避前方出现的障碍物，看看你能坚持多久！',
         imageUrl: '/images/running-game.jpg'
+    },
+    {
+        id: 'bubble-shooter',
+        title: '泡泡龙',
+        description: '经典泡泡射击游戏，瞄准并发射彩色泡泡，匹配三个或更多相同颜色的泡泡使其消除。在限时内获得最高分！',
+        imageUrl: '/images/bubble-shooter.jpg'
     }
 ]
 

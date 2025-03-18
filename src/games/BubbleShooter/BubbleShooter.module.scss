@@ -1,0 +1,97 @@
+.bubbleShooterContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to bottom, #87ceeb, #e0f7fa);
+    position: relative;
+}
+
+.gameArea {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameCanvas {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gameInfo {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    .score,
+    .timer {
+        font-size: 1.2em;
+        margin: 5px 0;
+        color: #333;
+    }
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background: white;
+    padding: 30px 50px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    h2 {
+        margin: 0 0 20px;
+        color: #333;
+    }
+
+    p {
+        margin: 10px 0 20px;
+        font-size: 1.2em;
+        color: #666;
+    }
+}
+
+.startButton {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background: #45a049;
+    }
+}
+
+.instructions {
+    padding: 15px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    color: #333;
+    line-height: 1.5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
